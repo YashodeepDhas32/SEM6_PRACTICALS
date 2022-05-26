@@ -1,0 +1,14 @@
+https://sdk.cloud.google.com
+curl https://sdk.cloud.google.com | bash
+gcloud init
+https://console.cloud.google.com/start
+https://console.cloud.google.com/start
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+gcloud auth application-default login
+cd logging/cloud-client/
+  python3 -m venv env
+  source env/bin/activate
+pip install -r requirements.txt
+python snippets.py
+cd python-docs-samples/appengine/standard/hello_world
+dev_appserver.py app.yml
